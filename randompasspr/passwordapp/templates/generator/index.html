@@ -1,0 +1,35 @@
+<!-- generator/templates/generator/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+</head>
+<body>
+    <h1>Random Password Generator</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="length">Enter password length:</label>
+        <input type="number" name="length" id="length" value="12" min="1" required>
+        
+        <p>Choose character set for password:</p>
+        <input type="checkbox" name="letters" id="letters" checked>
+        <label for="letters">Letters</label><br>
+
+        <input type="checkbox" name="digits" id="digits">
+        <label for="digits">Digits</label><br>
+
+        <input type="checkbox" name="special" id="special">
+        <label for="special">Special characters</label><br>
+
+        <button type="submit">Generate Password</button>
+    </form>
+    
+    {% if password %}
+        <h2>The random password is: {{ password }}</h2>
+    {% elif error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+</body>
+</html>
