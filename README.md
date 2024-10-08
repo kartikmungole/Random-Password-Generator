@@ -20,7 +20,7 @@ Click Copy to copy the password to your clipboard.
 
 ## Prerequisites
 Ensure you have the following installed:
-Python 3.x
+Python,
 Django
 
 
