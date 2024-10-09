@@ -20,8 +20,8 @@ Copy the generated password with one click.
 
 ## Prerequisites
 Ensure you have the following installed:
-Python,
-Django
+* Python,
+* Django
 
 
 
