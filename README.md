@@ -8,9 +8,9 @@ Simple user interface for easy password generation.
 Copy the generated password with one click.
 
 ## Tech Stack
-Backend: Python, Django
-Frontend: HTML
-Database: SQLite (default Django database)
+* Backend: Python, Django
+* Frontend: HTML
+* Database: SQLite (default Django database)
 
 ## Usage
 Enter the desired password length.
