@@ -13,10 +13,10 @@ Copy the generated password with one click.
 * Database: SQLite (default Django database)
 
 ## Usage
-Enter the desired password length.
-Select the desired options for including numbers, special characters, and uppercase letters.
-Click the Generate Password button to create a random password.
-Click Copy to copy the password to your clipboard.
+* Enter the desired password length.
+* Select the desired options for including numbers, special characters, and uppercase letters.
+* Click the Generate Password button to create a random password.
+* Click Copy to copy the password to your clipboard.
 
 ## Prerequisites
 Ensure you have the following installed:
